@@ -1,0 +1,25 @@
+{
+  "name": "project-controle-chamados",
+  "version": "1.0.0",
+  "description": "Essa API permite os Usuários gerenciar os Chamados através de operações CRUD.",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "22.16.0"
+  },
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prisma": "^6.11.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.11.0",
+    "fastify": "^5.4.0"
+  }
+}
