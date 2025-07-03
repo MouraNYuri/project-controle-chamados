@@ -1,10 +1,10 @@
 # API de Controle de Chamados
 
-Essa API permite oos Usuários gerenciar os Chamados através de operações CRUD.
+Essa API permite os Usuários gerenciar os Chamados através de operações CRUD.
 
 ## Funcionalidade
 
-Os Usuário devem criar novos Chamados com setor, núcleo, problema
+Os Usuário devem criar novos Chamados com setor, núcleo, problema e serem capazes de responder os Chamados colocando uma solução.
 
 ## Requisitos Funcionais
 
