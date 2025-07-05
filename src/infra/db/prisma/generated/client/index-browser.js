@@ -117,9 +117,29 @@ exports.Prisma.TransactionIsolationLevel = makeStrictEnum({
   Serializable: 'Serializable'
 });
 
+exports.Prisma.TicketScalarFieldEnum = {
+  id: 'id',
+  setor: 'setor',
+  nucleo: 'nucleo',
+  problema: 'problema',
+  solucao: 'solucao',
+  created_at: 'created_at',
+  updated_at: 'updated_at'
+};
+
+exports.Prisma.SortOrder = {
+  asc: 'asc',
+  desc: 'desc'
+};
+
+exports.Prisma.NullsOrder = {
+  first: 'first',
+  last: 'last'
+};
+
 
 exports.Prisma.ModelName = {
-
+  Ticket: 'Ticket'
 };
 
 /**

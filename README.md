@@ -16,3 +16,12 @@ Os Usuário devem criar novos Chamados com setor, núcleo, problema e serem capa
 ## Regras de Négocio
 
 - Os valores enviados pelo Usuário devem ser validados
+
+## Estrutura do Projeto
+
+- `features/`: funcionalidades por domínio (ex: CreateTicket)
+- `infra/`: adaptadores de tecnologia como Fastify, Prisma etc
+- `protocols/`: contratos (interfaces, entidades, DTOs)
+- `controller`: lógica de entrada (Fastify → Service)
+- `service`: caso de uso / regra de negócio
+- `repository`: abstrações de persistência via interfaces

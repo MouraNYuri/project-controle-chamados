@@ -9,11 +9,11 @@ datasource db {
 }
 
 model Ticket {
-  id Int @id @default(autoincrement())
-  setor String
-  nucleo String
-  problema String
-  solucao String?
+  id         Int      @id @default(autoincrement())
+  setor      String
+  nucleo     String
+  problema   String
+  solucao    String?
   created_at DateTime @default(now())
   updated_at DateTime @updatedAt
 }
